@@ -13,6 +13,7 @@ class UnityLoader < Formula
     bin_path.install Dir["*"]
     cd bin_path do
       system "dep", "ensure"
+      system "ls"
       system "go", "build", "-o", bin/"unity-loader", "./cmd/unity-loader/main.go"
     end
   end
