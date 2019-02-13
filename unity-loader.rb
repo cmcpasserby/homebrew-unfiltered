@@ -1,8 +1,8 @@
 class UnityLoader < Formula
   desc "Tools for running and installing multiple versions of Unity"
   homepage "https://github.com/cmcpasserby/unity-loader"
-  url "https://github.com/cmcpasserby/unity-loader/archive/v2.0.0.tar.gz"
-  sha256 "ef4f6f9813f7cda2d983969083a035a69e6f71ca204238d532257dace41205ff"
+  url "https://github.com/cmcpasserby/unity-loader/archive/v2.0.1.tar.gz"
+  sha256 "a0628ec0b27e8fa287a42261c8b41dd70089b109bf4823b05598046afc02edbb"
 
   depends_on "go" => :build
   depends_on "dep" => :build
