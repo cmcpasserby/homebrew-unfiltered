@@ -1,8 +1,8 @@
 class Ucb < Formula
   desc "Tools for working with Unity Cloud Build"
   homepage "https://github.com/cmcpasserby/ucb"
-  url "https://github.com/cmcpasserby/ucb/archive/v1.0.2.tar.gz"
-  sha256 "9bdb0340916732c2df1bd28360f4e4427d091af8a4a0482fb8af69cb9b782fed"
+  url "https://github.com/cmcpasserby/ucb/archive/v1.0.3.tar.gz"
+  sha256 "fa4963d187fee9d7429f3fdd6b6e8e25cf6867e37c3b73864803dfc1a5dcf4f1"
 
   depends_on "go" => :build
 
