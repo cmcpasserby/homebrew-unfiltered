@@ -1,8 +1,8 @@
 class UnityLoader < Formula
   desc "Tool for loading unity projects with their respective unity versions"
   homepage "https://github.com/cmcpasserby/unity-loader"
-  url "https://github.com/cmcpasserby/unity-loader/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "be9d6420cd546388f70093a14a6d77817e9cf76c9ea039dc169184b3906d46cc"
+  url "https://github.com/cmcpasserby/unity-loader/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "1db7c294a931a7f5282b0bd015d4d99690ffed0af4c8286ea5d37a92aee7280d"
 
   depends_on "go" => :build
 
